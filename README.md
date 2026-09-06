@@ -19,6 +19,6 @@ ensure tc_db
 - Usar `tc.db.transaction` sempre que a operação mova dinheiro ou itens.
 
 ## Licença
-`tc_db` é **LGPL-3.0-or-later** (ver `LICENSE.md`, `COPYING`, `COPYING.LESSER`).
+`tc_db` é **LGPL-3.0-or-later** (ver `docs/licenca.md`, `LICENSE`, `licenses/GPL-3.0.txt`).
 O bundle distribuído inclui o `mysql2`, que é MIT e compatível; os avisos de copyright
 exigidos estão em `THIRD-PARTY-NOTICES.md` e têm de acompanhar a release.

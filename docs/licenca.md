@@ -3,7 +3,7 @@
 `tc_db` é distribuído sob a **GNU Lesser General Public License v3.0 ou posterior**
 (LGPL-3.0-or-later).
 
-Os textos oficiais estão em `COPYING` (GPL-3.0) e `COPYING.LESSER` (LGPL-3.0).
+Os textos oficiais estão em `LICENSE` (LGPL-3.0) e `licenses/GPL-3.0.txt` (GPL-3.0).
 Se não estiverem presentes, obtenha-os com `bun run licenses` ou em
 https://www.gnu.org/licenses/lgpl-3.0.html — não os escreva à mão.
 
