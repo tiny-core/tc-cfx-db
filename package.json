@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "bun build src/index.ts --target=node --format=cjs --minify --outfile=dist/server.js"
+    "build": "bun run build.ts"
   },
   "dependencies": {
     "mysql2": "^3.11.0"
