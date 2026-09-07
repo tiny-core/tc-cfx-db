@@ -15,9 +15,12 @@
  * for no escopo partilhado. O `index.ts` só usa globais (GetConvar, on, exports) e
  * não exporta nada, por isso não perde nada por estar fechado.
  */
+import { buildOut } from '../../tools/build/paths'
+
 const result = await Bun.build({
   entrypoints: ['src/index.ts'],
-  outdir: 'dist',
+  // Árvore única, já no sítio onde o fxmanifest o procura (`server_script 'dist/server.js'`).
+  outdir: buildOut('tc_db'),
   naming: 'server.js',
   target: 'node',
   format: 'cjs',
